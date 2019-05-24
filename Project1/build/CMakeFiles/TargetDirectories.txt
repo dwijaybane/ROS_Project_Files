@@ -1,3 +1,0 @@
-/notebooks/Project1/build/CMakeFiles/rebuild_cache.dir
-/notebooks/Project1/build/CMakeFiles/hello_world.dir
-/notebooks/Project1/build/CMakeFiles/edit_cache.dir

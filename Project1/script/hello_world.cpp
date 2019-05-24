@@ -7,7 +7,7 @@ namespace gazebo
     public:
         WorldPluginTutorial() : WorldPlugin()
         {
-            printf("Welcome to Dwijay’s World!!\n");
+            printf("Welcome to Dwijay’s World!\n");
         }
 
     public:
@@ -20,4 +20,4 @@ namespace gazebo
 }
 
 // Make sure to provide plugin path
-// export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/notebook/Project1/build
+// export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/build

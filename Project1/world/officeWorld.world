@@ -1,4 +1,4 @@
-<sdf version='1.6'>
+<sdf version='1.5'>
   <world name='default'>
   <plugin name="hello_world" filename="libhello_world.so"/>
     <light name='sun' type='directional'>
