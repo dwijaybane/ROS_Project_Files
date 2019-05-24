@@ -245,16 +245,16 @@
       <collision name='Wall_108_Collision'>
         <geometry>
           <box>
-            <size>3.66 0.15 1.46</size>
+            <size>3.26 0.15 1.46</size>
           </box>
         </geometry>
-        <pose frame=''>0 0 0.73 0 -0 0</pose>
+        <pose frame=''>-0.2 0 0.73 0 -0 0</pose>
       </collision>
       <visual name='Wall_108_Visual'>
-        <pose frame=''>0 0 0.73 0 -0 0</pose>
+        <pose frame=''>-0.2 0 0.73 0 -0 0</pose>
         <geometry>
           <box>
-            <size>3.66 0.15 1.46</size>
+            <size>3.26 0.15 1.46</size>
           </box>
         </geometry>
         <material>
@@ -413,7 +413,7 @@
           <layer>0</layer>
         </meta>
       </visual>
-      <pose frame=''>-1.065 -0.04 0 0 -0 0</pose>
+      <pose frame=''>-1.065 0.3 0 0 -0 0</pose>
     </link>
     <link name='Wall_50'>
       <pose frame=''>-3.815 1.45 0 0 -0 1.5708</pose>
@@ -1124,11 +1124,11 @@
         <pose frame=''>-2.01925 0 1.25 0 -0 0</pose>
       </collision>
       <visual name='Wall_70_Visual_1'>
-        <pose frame=''>0.115747 0 0.73 0 -0 0</pose>
+        <pose frame=''>0.016 0 0.73 0 -0 0</pose>
         <!-- <pose frame=''>0.115747 0 0.39 0 -0 0</pose> -->
         <geometry>
           <box>
-            <size>4.0385 0.15 1.46</size>
+            <size>3.8385 0.15 1.46</size>
             <!-- <size>4.0385 0.15 0.78</size> -->
           </box>
         </geometry>
@@ -1146,11 +1146,11 @@
       <collision name='Wall_70_Collision_1'>
         <geometry>
           <box>
-            <size>4.0385 0.15 1.46</size>
+            <size>3.8385 0.15 1.46</size>
             <!-- <size>4.0385 0.15 0.78</size> -->
           </box>
         </geometry>
-        <pose frame=''>0.115747 0 0.73 0 -0 0</pose>
+        <pose frame=''>0.016 0 0.73 0 -0 0</pose>
         <!-- <pose frame=''>0.115747 0 0.39 0 -0 0</pose> -->
       </collision>
       <visual name='Wall_70_Visual_2'>
@@ -1237,7 +1237,7 @@
           <layer>0</layer>
         </meta>
       </visual>
-      <pose frame=''>1.215 -0.04 0 0 -0 0</pose>
+      <pose frame=''>1.215 0.3 0 0 -0 0</pose>
       <!-- <pose frame=''>-1.065 -0.04 0 0 -0 0</pose> -->
     </link>
 
