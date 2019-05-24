@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/notebooks/gazebo_plugin_tutorial/hello_world.cc
+/notebooks/Project1/script/hello_world.cc
 gazebo/gazebo.hh
 -
 

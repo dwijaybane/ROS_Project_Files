@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /notebooks/gazebo_plugin_tutorial
+CMAKE_SOURCE_DIR = /notebooks/Project1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /notebooks/gazebo_plugin_tutorial/build
+CMAKE_BINARY_DIR = /notebooks/Project1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/gazebo_plugin_tutorial/build/CMakeFiles /notebooks/gazebo_plugin_tutorial/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/Project1/build/CMakeFiles /notebooks/Project1/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/gazebo_plugin_tutorial/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /notebooks/Project1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ hello_world/fast:
 	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
 .PHONY : hello_world/fast
 
-hello_world.o: hello_world.cc.o
+script/hello_world.o: script/hello_world.cc.o
 
-.PHONY : hello_world.o
+.PHONY : script/hello_world.o
 
 # target to build an object file
-hello_world.cc.o:
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/hello_world.cc.o
-.PHONY : hello_world.cc.o
+script/hello_world.cc.o:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/script/hello_world.cc.o
+.PHONY : script/hello_world.cc.o
 
-hello_world.i: hello_world.cc.i
+script/hello_world.i: script/hello_world.cc.i
 
-.PHONY : hello_world.i
+.PHONY : script/hello_world.i
 
 # target to preprocess a source file
-hello_world.cc.i:
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/hello_world.cc.i
-.PHONY : hello_world.cc.i
+script/hello_world.cc.i:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/script/hello_world.cc.i
+.PHONY : script/hello_world.cc.i
 
-hello_world.s: hello_world.cc.s
+script/hello_world.s: script/hello_world.cc.s
 
-.PHONY : hello_world.s
+.PHONY : script/hello_world.s
 
 # target to generate assembly for a file
-hello_world.cc.s:
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/hello_world.cc.s
-.PHONY : hello_world.cc.s
+script/hello_world.cc.s:
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/script/hello_world.cc.s
+.PHONY : script/hello_world.cc.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... hello_world"
 	@echo "... edit_cache"
-	@echo "... hello_world.o"
-	@echo "... hello_world.i"
-	@echo "... hello_world.s"
+	@echo "... script/hello_world.o"
+	@echo "... script/hello_world.i"
+	@echo "... script/hello_world.s"
 .PHONY : help
 
 

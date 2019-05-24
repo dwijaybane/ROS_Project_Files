@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /notebooks/gazebo_plugin_tutorial
+CMAKE_SOURCE_DIR = /notebooks/Project1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /notebooks/gazebo_plugin_tutorial/build
+CMAKE_BINARY_DIR = /notebooks/Project1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hello_world.dir/depend.make
@@ -57,43 +57,43 @@ include CMakeFiles/hello_world.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hello_world.dir/flags.make
 
-CMakeFiles/hello_world.dir/hello_world.cc.o: CMakeFiles/hello_world.dir/flags.make
-CMakeFiles/hello_world.dir/hello_world.cc.o: ../hello_world.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/notebooks/gazebo_plugin_tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello_world.dir/hello_world.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello_world.dir/hello_world.cc.o -c /notebooks/gazebo_plugin_tutorial/hello_world.cc
+CMakeFiles/hello_world.dir/script/hello_world.cc.o: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/script/hello_world.cc.o: ../script/hello_world.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/notebooks/Project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello_world.dir/script/hello_world.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello_world.dir/script/hello_world.cc.o -c /notebooks/Project1/script/hello_world.cc
 
-CMakeFiles/hello_world.dir/hello_world.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello_world.dir/hello_world.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /notebooks/gazebo_plugin_tutorial/hello_world.cc > CMakeFiles/hello_world.dir/hello_world.cc.i
+CMakeFiles/hello_world.dir/script/hello_world.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello_world.dir/script/hello_world.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /notebooks/Project1/script/hello_world.cc > CMakeFiles/hello_world.dir/script/hello_world.cc.i
 
-CMakeFiles/hello_world.dir/hello_world.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_world.dir/hello_world.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /notebooks/gazebo_plugin_tutorial/hello_world.cc -o CMakeFiles/hello_world.dir/hello_world.cc.s
+CMakeFiles/hello_world.dir/script/hello_world.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_world.dir/script/hello_world.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /notebooks/Project1/script/hello_world.cc -o CMakeFiles/hello_world.dir/script/hello_world.cc.s
 
-CMakeFiles/hello_world.dir/hello_world.cc.o.requires:
+CMakeFiles/hello_world.dir/script/hello_world.cc.o.requires:
 
-.PHONY : CMakeFiles/hello_world.dir/hello_world.cc.o.requires
+.PHONY : CMakeFiles/hello_world.dir/script/hello_world.cc.o.requires
 
-CMakeFiles/hello_world.dir/hello_world.cc.o.provides: CMakeFiles/hello_world.dir/hello_world.cc.o.requires
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/hello_world.cc.o.provides.build
-.PHONY : CMakeFiles/hello_world.dir/hello_world.cc.o.provides
+CMakeFiles/hello_world.dir/script/hello_world.cc.o.provides: CMakeFiles/hello_world.dir/script/hello_world.cc.o.requires
+	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/script/hello_world.cc.o.provides.build
+.PHONY : CMakeFiles/hello_world.dir/script/hello_world.cc.o.provides
 
-CMakeFiles/hello_world.dir/hello_world.cc.o.provides.build: CMakeFiles/hello_world.dir/hello_world.cc.o
+CMakeFiles/hello_world.dir/script/hello_world.cc.o.provides.build: CMakeFiles/hello_world.dir/script/hello_world.cc.o
 
 
 # Object files for target hello_world
 hello_world_OBJECTS = \
-"CMakeFiles/hello_world.dir/hello_world.cc.o"
+"CMakeFiles/hello_world.dir/script/hello_world.cc.o"
 
 # External object files for target hello_world
 hello_world_EXTERNAL_OBJECTS =
 
-libhello_world.so: CMakeFiles/hello_world.dir/hello_world.cc.o
+libhello_world.so: CMakeFiles/hello_world.dir/script/hello_world.cc.o
 libhello_world.so: CMakeFiles/hello_world.dir/build.make
 libhello_world.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libhello_world.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libhello_world.so: CMakeFiles/hello_world.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/notebooks/gazebo_plugin_tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libhello_world.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/notebooks/Project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libhello_world.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello_world.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -101,7 +101,7 @@ CMakeFiles/hello_world.dir/build: libhello_world.so
 
 .PHONY : CMakeFiles/hello_world.dir/build
 
-CMakeFiles/hello_world.dir/requires: CMakeFiles/hello_world.dir/hello_world.cc.o.requires
+CMakeFiles/hello_world.dir/requires: CMakeFiles/hello_world.dir/script/hello_world.cc.o.requires
 
 .PHONY : CMakeFiles/hello_world.dir/requires
 
@@ -110,6 +110,6 @@ CMakeFiles/hello_world.dir/clean:
 .PHONY : CMakeFiles/hello_world.dir/clean
 
 CMakeFiles/hello_world.dir/depend:
-	cd /notebooks/gazebo_plugin_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /notebooks/gazebo_plugin_tutorial /notebooks/gazebo_plugin_tutorial /notebooks/gazebo_plugin_tutorial/build /notebooks/gazebo_plugin_tutorial/build /notebooks/gazebo_plugin_tutorial/build/CMakeFiles/hello_world.dir/DependInfo.cmake --color=$(COLOR)
+	cd /notebooks/Project1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /notebooks/Project1 /notebooks/Project1 /notebooks/Project1/build /notebooks/Project1/build /notebooks/Project1/build/CMakeFiles/hello_world.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hello_world.dir/depend
 

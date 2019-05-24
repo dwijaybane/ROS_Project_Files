@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hello_world.dir/hello_world.cc.o"
+  "CMakeFiles/hello_world.dir/script/hello_world.cc.o"
   "libhello_world.pdb"
   "libhello_world.so"
 )
