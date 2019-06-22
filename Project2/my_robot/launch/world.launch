@@ -2,19 +2,19 @@
 
 <launch>
     <!-- Robot pose -->
-    <arg name="x" default="3.447"/>
-    <arg name="y" default="-0.472"/>
+    <arg name="x" default="3.863"/>
+    <arg name="y" default="-8.643"/>
     <arg name="z" default="0.0999"/>
     <arg name="roll" default="0"/>
     <arg name="pitch" default="0"/>
-    <arg name="yaw" default="3.0"/>
+    <arg name="yaw" default="1.5"/>
 
     <!-- Launch other relevant files -->
     <include file="$(find my_robot)/launch/robot_description.launch"/>
 
     
     <!-- World File -->
-    <arg name="world_file" default="$(find my_robot)/worlds/office.world"/>
+    <arg name="world_file" default="$(find my_robot)/worlds/maze.world"/>
 
     <!-- Launch Gazebo World -->
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
