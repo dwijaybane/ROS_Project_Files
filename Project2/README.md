@@ -1,5 +1,5 @@
 #Project2
-![Overview](/screenshot/ballchase1.gif) 
+![Overview](/Project2/screenshot/ballchase1.gif) 
  
 ## Overview  
 In this project you'll create two ROS packages inside your `catkin_ws/src`: the `drive_bot` and the `ball_chaser` which will be used in Gazebo. Here are the steps to design the robot, house it inside your world, and program it to chase white-colored balls:  
