@@ -1,4 +1,4 @@
-# Project2
+# Project2: Go Chase it!
 
 ![Overview](/Project2/screenshot/ballchase1.gif) 
  
