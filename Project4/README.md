@@ -1,5 +1,5 @@
-#Project4
-![Overview](/Screenshots/slam2.png)  
+# Project4: Map My World
+![Overview](/Project4/Screenshots/slam2.png)  
 
 ## Overview  
 In this project you will create a 2D occupancy grid and 3D octomap from a simulated environment using your own robot with the RTAB-Map package.  
@@ -39,4 +39,4 @@ Remember to rename your `~/.ros/rtabmap.db` before your next attempt since it wi
 roslaunch my_robot localization.launch
 ``` 
 
-![gif](/Screenshots/slam5.gif)
+![gif](/Project4/Screenshots/slam5.gif)
