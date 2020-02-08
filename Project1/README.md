@@ -1,5 +1,5 @@
-#Project1
-![map](/screenshot/map3.png) 
+# Project1: Build My World
+![map](/Project1/screenshot/map1.png) 
 
 ## Overview  
 In this project you'll create your simulation world in Gazebo for all upcoming projects.  
@@ -30,4 +30,4 @@ cd ROS_Project_Files/Project1/world/
 gazebo officeWorld.world
 ```
  
-![map2](/screenshot/map2.png) 
+![map2](/Project1/screenshot/map2.png) 
